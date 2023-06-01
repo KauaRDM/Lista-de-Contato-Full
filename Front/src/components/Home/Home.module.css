@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+.title {
+  color: rgba(246, 246, 246, 0.815);
+  font-size: 2.5rem;
+}
+.controles {
+  color: #000000;
+  margin-left: 4rem;
+  font-size: 2rem;
+}
+.contatos {
+  flex-direction: column;
+  margin-left: 20rem;
+  background-color: hsla(254, 90%, 15%, 0.447);
+  border-radius: 3rem ;
+  
+  box-shadow: 3px 4px 11px var(--color-shadow-blue);
+}
+.headerContatos {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  padding-bottom: 1rem;
+  
+}
+.buttons {
+  margin-top: 1rem;
+  margin-left: 7rem;
+}
+.buttom {
+  height: 3.4rem;
+  width:  3.4rem;
+  align-items: center;
+  background-color: var(--color-bg-blueDark);
+  color: rgb(0, 0, 0);
+  border: transparent;
+  margin-left: 0,.5rem;
+  font-size: 1.7rem;
+  padding-top: 0.3rem;
+   
+}
+.pesquisa {
+  align-items: center;
+  margin-bottom: 1.5rem;
+  background-color: var(--color-bg-blueLight);
+  border-radius: 7rem;
+  margin-right: 5rem;
+}
+.buttomPesquisa {
+  background-color: var(--color-bg-blueLight);
+  height: 3.3rem;
+  width: 5rem;
+  border: transparent;
+  color: #fff;
+  font-size: 1.5rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+.inputPesquisa {
+  background-color: var(--color-bg-blueLight);
+  height: 3.5rem;
+  width: 38.5rem;
+  border: transparent ;
+  font-size: medium;
+  color: #fff;
+  border-top-right-radius: 6rem;
+  border-bottom-right-radius: 6rem;
+}
+.listaContatos {
+  background-color: var(--color-bg-dark);
+  padding: 2rem;
+  width: 100%;
+  border-bottom-left-radius: 3rem ;
+  border-bottom-right-radius: 3rem ;
+}
+
+.listaCatalogo {
+  display: flex;
+  flex:1;
+  flex-direction: row;
+}
+.letraCatalogo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 5px;
+  background-color: var(--color-bg-dark);
+  border: 1px solid  var(--gray-dark);
+  font-size: 2rem;
+  margin-right: 4rem;
+  margin-top: 4rem;
+  text-align: center;
+  padding-top: 0.2rem;
+  color: #999494ae
+}
